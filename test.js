@@ -80,7 +80,6 @@ function endQuiz() {
     document.getElementById("questions").classList.add("hide");
     document.getElementById("end-screen").classList.remove("hide");
     document.getElementById("final-score").innerHTML = score;
-
     
 }
 
@@ -104,9 +103,6 @@ let highscoresList = document.getElementById("highscores");
 
 // Get the highscores from local storage
 let highscores = JSON.parse(localStorage.getItem("highscores")) || [];
-
-// Sort the highscores by score in descending order
-highscores.sort((a, b) => b.score - a.score);
 
 // Loop through the highscores and add them to the list
 for (let i = 0; i < highscores.length; i++) {
