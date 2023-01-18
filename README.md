@@ -8,7 +8,7 @@ This project utilises Web API's in order to manipulate the DOM and dynamically c
 
 Here is a screenshot of my project. 
 
-![Image of Password Generator ](./IMG-Quiz.png)
+![Image of Password Generator ](./assets/IMG-Quiz.png)
 
 
 ### What I have learnt 
