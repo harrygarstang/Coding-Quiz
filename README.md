@@ -1,4 +1,3 @@
-Quiz using Javascript 
 
 ## Description 
 This project utilises Web API's in order to manipulate the DOM and dynamically change the HTML of a page for a 'Coding Quiz' web application. 
